@@ -22,4 +22,10 @@ public class Calc_Library {
         float result_div=num1/num2;
         return result_div;
     }
+
+    public static float mod (float num1,float num2)
+    {
+        float result_mod=num1%num2;
+        return result_mod;
+    }
 }
